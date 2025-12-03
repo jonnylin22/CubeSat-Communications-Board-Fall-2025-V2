@@ -5,6 +5,169 @@
 	(uuid "e925e34e-4730-4918-b470-5da5a02639a8")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x12_Pin"
 			(pin_names
 				(offset 1.016)
@@ -731,196 +894,6 @@
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2537,6 +2510,242 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "comms-board-symbols:ESDS311DYFR"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ESDS311DYFR"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ESDS311DYFR"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esds311.pdf?ts=1719821466282&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FESDS311%252Fpart-details%252FESDS311DYFR%253Fbm-verify%253DAAQAAAAJ_____30UPnUI7TCdHcKEpTyx_f9mNWiGMjhoMJpIRIgfGCvpS_IoWBxKYLMyHwmiEmXxml"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 1-CH UNI-DIRECTIONAL DEVICE FOR 3.3 V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESDS311DYFR"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-ESDS311DYFR"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS311DYFR?qs=dbcCsuKDzFV5Lb0xfh%252BNfg%3D%3D"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "ESDS311DYFR"
+				(at 10.16 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esds311dyfr/texas-instruments?utm_currency=USD&region=nac"
+				(at 10.16 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ESDS311DYFR_1_1"
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 6.096 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "comms-board-symbols:NCP186AMX390TAG"
 			(pin_names
 				(offset 0.254)
@@ -3299,6 +3508,278 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "comms-board-symbols:PESD5V5C1BL-QYL"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 15.24 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PESD5V5C1BL-QYL"
+				(at 15.24 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PESD5V5C1BLQYL"
+				(at 15.24 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nexperia.com/product/PESD5V5C1BL-Q"
+				(at 15.24 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Extremely low clamping bidirectional ESD protection diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 15.24 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 15.24 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PESD5V5C1BL-QYL"
+				(at 15.24 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-PESD5V5C1BL-QYL"
+				(at 15.24 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V5C1BL-QYL?qs=3Rah4i%252BhyCE8B1CqJdddIw%3D%3D"
+				(at 15.24 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 15.24 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 15.24 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PESD5V5C1BL-QYL_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -4.572) (xy 9.144 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -4.572) (xy 10.16 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.176 5.08) (xy 10.16 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4335,6 +4816,18 @@
 		)
 		(uuid "08e00436-6514-434e-a7c4-4b0c33d42a1c")
 	)
+	(text "RF Attenuator to 10dBm?"
+		(exclude_from_sim no)
+		(at 199.136 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "13ac414a-dd52-4602-b5b6-69941c9ba122")
+	)
 	(text "Sky65366-21 FEM Pins (4)\n"
 		(exclude_from_sim no)
 		(at 60.96 219.456 0)
@@ -4384,6 +4877,16 @@
 			)
 		)
 		(uuid "355e7b6e-013a-4c96-a7d2-db35566ae2ae")
+	)
+	(text "LED power on indication"
+		(exclude_from_sim no)
+		(at 268.986 134.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43bc69f9-3ab7-4c28-9afc-b374a08ec647")
 	)
 	(text "LDO operation status LED\n"
 		(exclude_from_sim no)
@@ -4479,6 +4982,16 @@
 		)
 		(uuid "6fad4984-f34a-42fe-8e44-ff5219c5afe4")
 	)
+	(text "ESD Protection on \nselection input lines"
+		(exclude_from_sim no)
+		(at 267.97 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7508cc4c-5594-493c-bded-3317e975a7be")
+	)
 	(text "Pinout Interface"
 		(exclude_from_sim no)
 		(at 188.468 216.662 0)
@@ -4561,6 +5074,16 @@
 		)
 		(uuid "98c01d2d-0330-4f86-a737-984f37313d23")
 	)
+	(text "Working Voltage:  3.6V\nClamping Voltage: 4.8V"
+		(exclude_from_sim no)
+		(at 371.602 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1f2c5c4-63d0-4b40-8ae8-33a3b9f42ca2")
+	)
 	(text "<---- Route as 50 ohms\n"
 		(exclude_from_sim no)
 		(at 394.462 56.134 0)
@@ -4583,7 +5106,7 @@
 	)
 	(text "Complementary Pin Control From MCU digital pins"
 		(exclude_from_sim no)
-		(at 278.892 35.306 0)
+		(at 334.518 20.066 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4625,7 +5148,7 @@
 	)
 	(text "V1   | V2   | Selected\n-----------------\nHIGH | LOW  | RF1\n-----------------\nLOW  | HIGH | RF2"
 		(exclude_from_sim no)
-		(at 256.032 42.672 0)
+		(at 310.642 28.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4666,6 +5189,16 @@
 		)
 		(uuid "d4ec9c3d-fe1b-494f-a8c0-4f9e174c8d84")
 	)
+	(text "Working Voltage:  5.5V\nClamping Voltage: 5.4 V"
+		(exclude_from_sim no)
+		(at 314.198 152.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5179fd6-66ad-42d0-8494-bcd6082ac126")
+	)
 	(text "Route as 50 ohms ---->\n"
 		(exclude_from_sim no)
 		(at 173.228 161.544 0)
@@ -4676,9 +5209,9 @@
 		)
 		(uuid "e00cf8eb-dd18-403a-90a2-3cb5bd6478a3")
 	)
-	(text "Reverse current protection\nLED power on indication\n"
+	(text "ESD protection\n\n"
 		(exclude_from_sim no)
-		(at 330.708 115.57 0)
+		(at 264.668 131.826 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4775,6 +5308,12 @@
 		(uuid "2ba9f7e2-f11c-4097-af94-d9cbe75003d7")
 	)
 	(junction
+		(at 311.15 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "328691db-0096-49ba-847e-5bbfaad97179")
+	)
+	(junction
 		(at 355.6 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4835,16 +5374,28 @@
 		(uuid "501c6344-e23c-4a30-948f-4578ee267ac9")
 	)
 	(junction
-		(at 308.61 147.32)
+		(at 311.15 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5fb714dc-541a-429d-bdbc-67ff88f48b9a")
+		(uuid "5ba629d1-6842-4c88-a0c5-3c749858e8be")
+	)
+	(junction
+		(at 280.67 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "621b99df-6c48-4ed8-a272-1a72e6d1e58c")
 	)
 	(junction
 		(at 83.82 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63b20490-b549-4550-8773-71331364591a")
+	)
+	(junction
+		(at 297.18 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66bcb06b-ad05-4514-9b89-e88575b35070")
 	)
 	(junction
 		(at 153.67 135.89)
@@ -4919,10 +5470,10 @@
 		(uuid "97b63159-886f-411a-a1c6-906f302ad06a")
 	)
 	(junction
-		(at 297.18 128.27)
+		(at 290.83 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9aaea159-81da-476d-a7ec-72a4af3862ec")
+		(uuid "9d00ea66-3bdb-4242-846b-f4fabaec231e")
 	)
 	(junction
 		(at 62.23 21.59)
@@ -4971,12 +5522,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc7303f7-0dda-46c4-aaeb-a263baf70b9c")
-	)
-	(junction
-		(at 308.61 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2dcb943-489d-4ee8-8b86-ea4c786c7a72")
 	)
 	(junction
 		(at 367.03 128.27)
@@ -5257,7 +5802,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 55.88) (xy 299.72 55.88)
+			(xy 276.86 55.88) (xy 280.67 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5277,7 +5822,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 158.75) (xy 203.2 163.83)
+			(xy 217.17 158.75) (xy 217.17 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5324,6 +5869,16 @@
 			(type default)
 		)
 		(uuid "36a86f0a-a228-453c-8100-e85da7ff47f3")
+	)
+	(wire
+		(pts
+			(xy 367.03 143.51) (xy 367.03 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376c6d2b-326f-4274-9736-cb2951a5698f")
 	)
 	(wire
 		(pts
@@ -5517,13 +6072,13 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 128.27) (xy 332.74 128.27)
+			(xy 290.83 53.34) (xy 311.15 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ee1f2b0-fe00-4455-b512-bf0e1bec3380")
+		(uuid "5f4e824a-18a8-4c84-b34e-2f50b31eefd7")
 	)
 	(wire
 		(pts
@@ -5547,7 +6102,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 123.19) (xy 297.18 128.27)
+			(xy 297.18 123.19) (xy 297.18 127)
 		)
 		(stroke
 			(width 0)
@@ -5588,6 +6143,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 55.88) (xy 299.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fa94df-e232-470e-b62c-d10e7bd60400")
+	)
+	(wire
+		(pts
 			(xy 355.6 123.19) (xy 355.6 128.27)
 		)
 		(stroke
@@ -5608,7 +6173,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 163.83) (xy 185.42 163.83)
+			(xy 217.17 163.83) (xy 185.42 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5658,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 147.32) (xy 308.61 147.32)
+			(xy 297.18 147.32) (xy 311.15 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5668,13 +6233,13 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 130.81) (xy 367.03 128.27)
+			(xy 311.15 147.32) (xy 332.74 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7732e03a-1a20-4eaf-a014-f828827ef0e1")
+		(uuid "77accb65-24d7-4a4b-9832-b92bc03e92b5")
 	)
 	(wire
 		(pts
@@ -5698,6 +6263,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 127) (xy 297.18 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d19e367-0a39-44b7-a2bf-51a9fc731cd6")
+	)
+	(wire
+		(pts
 			(xy 40.64 21.59) (xy 25.4 21.59)
 		)
 		(stroke
@@ -5715,6 +6290,16 @@
 			(type default)
 		)
 		(uuid "804e3803-aa4b-4ece-a75d-88fdec9285bd")
+	)
+	(wire
+		(pts
+			(xy 311.15 127) (xy 332.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817a915c-b3ce-4391-a4fe-45a21a32e90b")
 	)
 	(wire
 		(pts
@@ -5838,7 +6423,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 128.27) (xy 332.74 130.81)
+			(xy 332.74 127) (xy 332.74 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5919,26 +6504,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 138.43) (xy 308.61 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7acef7-6b75-468d-b096-0bdc89e37dc4")
-	)
-	(wire
-		(pts
-			(xy 308.61 130.81) (xy 308.61 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aef8613-2138-4823-b2a1-26e050dd9141")
-	)
-	(wire
-		(pts
 			(xy 149.86 77.47) (xy 149.86 78.74)
 		)
 		(stroke
@@ -5976,16 +6541,6 @@
 			(type default)
 		)
 		(uuid "a0d89fe9-17d3-4bbe-a164-27bb0e564116")
-	)
-	(wire
-		(pts
-			(xy 308.61 147.32) (xy 332.74 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a28463cd-ee07-457b-910a-20fd5078780f")
 	)
 	(wire
 		(pts
@@ -6076,16 +6631,6 @@
 			(type default)
 		)
 		(uuid "b109ec60-9498-4a4d-a768-877a2edab074")
-	)
-	(wire
-		(pts
-			(xy 297.18 128.27) (xy 297.18 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b496b8-3bfe-4ea9-b3ba-ece833e46cfc")
 	)
 	(wire
 		(pts
@@ -6290,16 +6835,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 128.27) (xy 297.18 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0be8bed-a49c-419f-afc2-c4eba4f6009f")
-	)
-	(wire
-		(pts
 			(xy 193.04 140.97) (xy 203.2 140.97)
 		)
 		(stroke
@@ -6307,16 +6842,6 @@
 			(type default)
 		)
 		(uuid "e0d1aee6-51c3-4d00-87ea-6660606712a9")
-	)
-	(wire
-		(pts
-			(xy 367.03 138.43) (xy 367.03 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11c2e89-eaf0-4976-af9e-791d4a2a9b20")
 	)
 	(wire
 		(pts
@@ -6400,6 +6925,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 127) (xy 311.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2f895d-450d-4308-a52d-77c23451afdd")
+	)
+	(wire
+		(pts
 			(xy 52.07 29.21) (xy 62.23 29.21)
 		)
 		(stroke
@@ -6461,7 +6996,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 53.34) (xy 311.15 53.34)
+			(xy 276.86 53.34) (xy 290.83 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9538,6 +10073,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 290.83 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d119d99-c4de-49cf-89f3-c42dcd22113b")
+		(property "Reference" "#PWR061"
+			(at 290.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b28b1a47-a1bd-41b6-8434-36f19b14ce21")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 149.86 199.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10570,42 +11171,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 292.1 137.16 180)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 350.52 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4cb7dd02-d800-4bfe-b492-78a0dd6d6bbf")
-		(property "Reference" "J1"
-			(at 292.1 128.27 0)
+		(uuid "4c085649-5542-40b8-af42-031e6843cd69")
+		(property "Reference" "J2"
+			(at 351.155 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 292.1 130.81 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 351.155 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 292.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-2-1715022?type=pdf"
-			(at 292.1 137.16 0)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 350.52 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10613,8 +11205,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 292.1 137.16 0)
+		(property "Datasheet" "~"
+			(at 350.52 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,35 +11214,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3817933"
-			(at 292.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "LCSC"
-			(at 292.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 292.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1715022"
-			(at 292.1 137.16 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 350.52 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,15 +11224,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b1798b4-63ea-47df-994d-daea506f5069")
+			(uuid "5002a61c-6a2b-4a73-bd7f-5d5bd8bb888f")
 		)
 		(pin "2"
-			(uuid "13a0030c-a6a7-4ae9-a08c-b0e3397db833")
+			(uuid "43350991-03e1-4c21-9650-3f4f0ab3181b")
 		)
 		(instances
-			(project ""
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10779,34 +11344,31 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
-		(at 367.03 134.62 90)
+		(at 280.67 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f2ca2bb-4525-499f-af4d-3e2a444eef71")
 		(property "Reference" "D2"
-			(at 369.57 133.3499 90)
+			(at 283.718 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "ESD131-B1-W0201"
-			(at 369.57 135.8899 90)
+			(at 268.732 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 367.03 134.62 0)
+			(at 280.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10815,7 +11377,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 367.03 134.62 0)
+			(at 280.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,7 +11386,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 367.03 134.62 0)
+			(at 280.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +11395,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 367.03 134.62 90)
+			(at 280.67 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +11404,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 367.03 134.62 90)
+			(at 280.67 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11099,94 +11661,6 @@
 			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 308.61 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c0c8b31-92fb-40bd-a107-033c4fc0e914")
-		(property "Reference" "D1"
-			(at 311.15 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 311.15 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 308.61 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 308.61 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 308.61 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 308.61 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 308.61 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9133c82c-d82c-4e9b-9179-98cae2339e51")
-		)
-		(pin "1"
-			(uuid "3740503b-8777-4cc9-9345-669eb21f12b1")
-		)
-		(instances
-			(project ""
-				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11644,7 +12118,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 203.2 158.75 0)
+		(at 217.17 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11653,7 +12127,7 @@
 		(fields_autoplaced yes)
 		(uuid "649f6264-d47a-4ee0-8fde-b7d6a61d0123")
 		(property "Reference" "#PWR043"
-			(at 203.2 162.56 0)
+			(at 217.17 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +12136,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 203.2 153.67 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11670,7 +12144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 158.75 0)
+			(at 217.17 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11679,7 +12153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 158.75 0)
+			(at 217.17 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +12162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 203.2 158.75 0)
+			(at 217.17 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11703,6 +12177,72 @@
 			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65ff8daa-7a7c-4b05-8bff-4dbeb78f404a")
+		(property "Reference" "#PWR062"
+			(at 280.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9837b87a-8e08-4eed-89e4-546a85d4d76d")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -12186,6 +12726,148 @@
 			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "comms-board-symbols:PESD5V5C1BL-QYL")
+		(at 311.15 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7201e80f-4ecb-4e2e-afc2-f20c9ec58008")
+		(property "Reference" "D7"
+			(at 317.5 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V5C1BL-QYL"
+			(at 317.5 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PESD5V5C1BLQYL"
+			(at 404.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nexperia.com/product/PESD5V5C1BL-Q"
+			(at 504.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Extremely low clamping bidirectional ESD protection diode"
+			(at 311.15 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 704.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 804.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PESD5V5C1BL-QYL"
+			(at 904.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PESD5V5C1BL-QYL"
+			(at 1004.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V5C1BL-QYL?qs=3Rah4i%252BhyCE8B1CqJdddIw%3D%3D"
+			(at 1104.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1204.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1304.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54b5de77-0ccf-4daa-8787-07145885ce78")
+		)
+		(pin "2"
+			(uuid "edb4fe04-f741-4d20-8266-91609cc0fa85")
+		)
+		(instances
+			(project ""
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -14614,110 +15296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 350.52 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3a9de5a-eafe-41d3-a4ae-4de15a4c5d4b")
-		(property "Reference" "J2"
-			(at 350.52 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 350.52 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 350.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-2-1715022?type=pdf"
-			(at 350.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 350.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C3817933"
-			(at 350.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "LCSC"
-			(at 350.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 350.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1715022"
-			(at 350.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05bd0de6-791b-4b26-8822-2d4b58c06fba")
-		)
-		(pin "2"
-			(uuid "3fc0b729-5539-4919-b29e-ea0096e535e9")
-		)
-		(instances
-			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
-				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 356.87 96.52 270)
 		(unit 1)
@@ -15644,6 +16222,148 @@
 		)
 	)
 	(symbol
+		(lib_id "comms-board-symbols:ESDS311DYFR")
+		(at 367.03 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfa27176-1917-45c7-b10b-a667d53360f3")
+		(property "Reference" "D1"
+			(at 370.84 134.1119 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESDS311DYFR"
+			(at 370.84 136.6519 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ESDS311DYFR"
+			(at 273.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esds311.pdf?ts=1719821466282&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FESDS311%252Fpart-details%252FESDS311DYFR%253Fbm-verify%253DAAQAAAAJ_____30UPnUI7TCdHcKEpTyx_f9mNWiGMjhoMJpIRIgfGCvpS_IoWBxKYLMyHwmiEmXxml"
+			(at 173.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 1-CH UNI-DIRECTIONAL DEVICE FOR 3.3 V"
+			(at 367.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at -26.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at -126.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS311DYFR"
+			(at -226.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS311DYFR"
+			(at -326.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS311DYFR?qs=dbcCsuKDzFV5Lb0xfh%252BNfg%3D%3D"
+			(at -426.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ESDS311DYFR"
+			(at -526.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esds311dyfr/texas-instruments?utm_currency=USD&region=nac"
+			(at -626.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58710723-07d1-4792-86d3-5a5c71ec3a4b")
+		)
+		(pin "1"
+			(uuid "33d2fe69-ab6c-4656-a99a-a70eaec7a863")
+		)
+		(instances
+			(project ""
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 205.74 101.6 270)
 		(unit 1)
@@ -15848,6 +16568,75 @@
 			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 292.1 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6d27638-276f-4804-a0c7-f0c43fcf81a6")
+		(property "Reference" "J1"
+			(at 291.4649 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 294.0049 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 292.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 292.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "662541b6-ed61-4e7e-bbd2-120c811e68f4")
+		)
+		(pin "2"
+			(uuid "a417d9cb-c3f4-49e2-af53-b01274f461da")
+		)
+		(instances
+			(project ""
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -18114,6 +18903,91 @@
 			(project ""
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD131-B1-W0201")
+		(at 290.83 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f798c77f-c399-47e5-ac2d-535dea911b88")
+		(property "Reference" "D8"
+			(at 287.782 49.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD131-B1-W0201"
+			(at 276.352 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+			(at 290.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+			(at 290.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 290.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 290.83 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 290.83 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f8caa40-106d-401c-bd2e-200a436b8cec")
+		)
+		(pin "1"
+			(uuid "bd0239d1-21fa-423e-8cfd-ca3515393686")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "D8")
 					(unit 1)
 				)
 			)
