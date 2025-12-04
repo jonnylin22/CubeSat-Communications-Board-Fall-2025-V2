@@ -7244,7 +7244,7 @@
 	)
 	(global_label "GD00"
 		(shape bidirectional)
-		(at 66.04 245.11 90)
+		(at 63.5 245.11 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7254,7 +7254,7 @@
 		)
 		(uuid "557ac2fb-7823-42a5-97e8-566d70d2e40d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.04 236.0545 90)
+			(at 63.5 236.0545 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,7 +7464,7 @@
 	)
 	(global_label "CSN"
 		(shape output)
-		(at 63.5 245.11 90)
+		(at 66.04 245.11 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7474,7 +7474,7 @@
 		)
 		(uuid "8d439e4c-f8cf-4ad5-9330-c81fc1a3c3ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 238.3148 90)
+			(at 66.04 238.3148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
