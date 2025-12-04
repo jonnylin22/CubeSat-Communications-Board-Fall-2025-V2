@@ -26775,20 +26775,20 @@
 		(uuid "0116f43c-afbe-49dd-a3a5-289cbec93529")
 	)
 	(segment
-		(start 140.6277 92.0223)
-		(end 135.05 92.0223)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "07be3911-6442-4bbc-9f66-7ec5319e0f8f")
-	)
-	(segment
 		(start 142.63 95.1)
 		(end 147.71 95.1)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 19)
 		(uuid "0e403261-6674-4525-be63-ee0b229c85cf")
+	)
+	(segment
+		(start 140.6277 92.0223)
+		(end 135.05 92.0223)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "22b34627-ffcc-46ce-9116-a0360fc28a99")
 	)
 	(segment
 		(start 133.7263 92.0223)
