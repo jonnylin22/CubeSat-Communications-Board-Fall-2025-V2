@@ -4962,6 +4962,16 @@
 		)
 		(uuid "6124c255-8373-4ffe-b320-6af381eda9c0")
 	)
+	(text "Note: Vias under EPAD should be tented \nto avoid migration of solder through \nthe vias during the solder reflow process."
+		(exclude_from_sim no)
+		(at 78.232 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67ea9212-961a-494a-9150-e451d6bd6a6d")
+	)
 	(text "Route as 50 ohms\ndifferential pairs"
 		(exclude_from_sim no)
 		(at 148.844 65.532 0)
@@ -8381,6 +8391,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 318.77 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cf8cc45-70e3-415f-9746-1776b4de7276")
+		(property "Reference" "#PWR010"
+			(at 318.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d01357a-2f29-4610-8865-34362da21caf")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 153.67 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10590,73 +10666,6 @@
 			(project ""
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 318.77 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40d4cb1a-7a6f-44ee-b9f9-7e7d8aa48f72")
-		(property "Reference" "#PWR010"
-			(at 312.42 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 314.96 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 318.77 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61b01e70-1c97-4845-a144-51c417c3c2d1")
-		)
-		(instances
-			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
-				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13862,7 +13871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PE4251MLI-Z"
+		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4251ds.pdf"
 			(at 318.77 53.34 0)
 			(effects
 				(font
@@ -13891,6 +13900,15 @@
 			)
 		)
 		(property "Vendor" ""
+			(at 318.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
 			(at 318.77 53.34 0)
 			(effects
 				(font
