@@ -4868,6 +4868,16 @@
 		)
 		(uuid "256ea598-72f8-440f-a605-035de58bf2c8")
 	)
+	(text "Test Points\n"
+		(exclude_from_sim no)
+		(at 122.682 231.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e473f11-704a-468e-93f5-e5ff55efa751")
+	)
 	(text "Route as 50 ohms ---->\n"
 		(exclude_from_sim no)
 		(at 391.668 63.5 0)
@@ -6098,6 +6108,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 240.03) (xy 176.53 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee3a183-d836-4111-ad0e-6ac6442e697e")
+	)
+	(wire
+		(pts
 			(xy 290.83 53.34) (xy 311.15 53.34)
 		)
 		(stroke
@@ -6356,6 +6376,16 @@
 			(type default)
 		)
 		(uuid "86faa542-fa63-4b1d-a0b8-b8838f6e7aa8")
+	)
+	(wire
+		(pts
+			(xy 152.4 241.3) (xy 152.4 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8737f376-df20-4d16-affb-f327508fbf6d")
 	)
 	(wire
 		(pts
@@ -6938,6 +6968,16 @@
 			(type default)
 		)
 		(uuid "ecc57f12-c80c-4ee8-979c-4c85fcfc6a1b")
+	)
+	(wire
+		(pts
+			(xy 125.73 241.3) (xy 125.73 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1f064d-036d-490a-84d9-efdbe07bb4f9")
 	)
 	(wire
 		(pts
@@ -7760,6 +7800,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.9V"
+		(shape passive)
+		(at 176.53 240.03 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "baf81f38-a6ef-4473-a882-94aa8c3e939f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 232.4713 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9106,6 +9168,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 123.19 250.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c6401e0-0ec4-4c15-baf5-1a7f09c17202")
+		(property "Reference" "J5"
+			(at 127 248.2849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 127 250.8249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 123.19 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 123.19 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fa154c7-03b2-43c5-8a49-8dc7d670ae45")
+		)
+		(pin "2"
+			(uuid "8d4411b5-b0b0-4f36-bf97-f619ca5b869d")
+		)
+		(instances
+			(project ""
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 359.41 53.34 90)
 		(unit 1)
@@ -9842,6 +9974,76 @@
 			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 173.99 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35c9b435-664f-4240-8d80-593c459b25eb")
+		(property "Reference" "J7"
+			(at 177.8 249.5549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 177.8 252.0949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 173.99 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 173.99 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d59361dc-685d-498f-91aa-041dc580ea23")
+		)
+		(pin "2"
+			(uuid "260cf780-63bc-44ee-960b-54400b8ab1f5")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11853,6 +12055,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 173.99 246.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5defb8ef-f060-4d32-b597-5b868fa645c5")
+		(property "Reference" "#PWR065"
+			(at 173.99 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7779abe5-9ad6-4b20-a0b6-c273dc7b23e5")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 167.64 144.78 0)
 		(unit 1)
@@ -12198,6 +12466,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 125.73 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65154458-2878-476c-b5b2-9d8fb6e0918f")
+		(property "Reference" "#PWR066"
+			(at 125.73 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 125.73 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 125.73 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4267b837-7231-4050-9a26-53a37776a91f")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 280.67 63.5 0)
 		(unit 1)
@@ -12420,6 +12754,72 @@
 			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 245.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67e08794-5ac1-4fa9-83d6-13d485b37cd4")
+		(property "Reference" "#PWR063"
+			(at 123.19 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3338fe36-d5ea-4188-b9ab-ae7ef0f704d3")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -15425,6 +15825,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 149.86 246.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6b7d0d5-7ae9-4425-a563-c08d58ffdd57")
+		(property "Reference" "#PWR064"
+			(at 149.86 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "737bb083-be57-41fa-b730-2f40eed0b6a9")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 154.94 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15657,6 +16123,76 @@
 			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 149.86 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad977c04-f3e8-420b-a719-56a4c89bf1aa")
+		(property "Reference" "J6"
+			(at 153.67 249.5549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 153.67 252.0949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 149.86 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 149.86 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46d568bf-c758-4d6d-9255-c4b87e50dbba")
+		)
+		(pin "2"
+			(uuid "46989850-321c-4a93-b60e-eeab69570cdb")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -17404,6 +17940,72 @@
 			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
 				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d196ddd2-f438-4bcd-b40b-808f055fe126")
+		(property "Reference" "#PWR067"
+			(at 152.4 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa773424-3e51-4e17-a167-c23fab55124c")
+		)
+		(instances
+			(project "CubeSat-Comms-XCVR-PCB-Fall2025-Version"
+				(path "/e925e34e-4730-4918-b470-5da5a02639a8"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
